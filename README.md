@@ -120,7 +120,7 @@ Crane Theme
 <img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/crane.png" />
 
 Material Theme
-<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/Material.png" />
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/material.png" />
 
 Material Dark Theme
 <img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/materialDark.png" />
