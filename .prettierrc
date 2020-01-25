@@ -1,0 +1,8 @@
+{
+  "printWidth": 100,
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "overrides": [{ "files": "*.html", "options": { "ignore": true } }]
+}
