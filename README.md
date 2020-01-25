@@ -1,40 +1,139 @@
-# Paper-And-Ink
+<h1 align="center">
+Paper and Ink
+</h1>
+<p align="center">
+ReactJs, Material-UI
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)!
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/georgesimos/paper-and-ink/blob/master/LICENSE)
 
-## Available Scripts
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/reply.png" />
 
-In the project directory, you can run:
+Paper and Ink is a **Free React Dashboard** built with:
 
-### `yarn start`
+- [React](https://github.com/facebook/react) - React is a JavaScript library for building user interfaces.
+- [Material UI](https://github.com/mui-org/material-ui) - React components for faster and easier web development.
+- [Recharts](https://github.com/recharts/recharts) - Redefined chart library built with React and D3.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- CSS-in-JS styles
+- Create-react-app under the hood
+- Material-UI v4
+- React v16
+- React Hooks
+- React Context
+- React Router Dom v5
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+clone the repository
 
-### `yarn build`
+```sh
+$ git clone https://github.com/georgesimos/paper-and-ink.git myproject
+$ cd myproject
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install the dependencies and devDependencies
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```sh
+$ npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Set environment variables
 
-### `yarn eject`
+```sh
+cp .env.example .env
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Start the server
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+$ npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Pages
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+We have implemented some basic pages, so you can see our template in action.
+
+- Dashboard
+- Tables
+- Typography
+- Icons
+
+## Application Structure
+
+```
+
+├── public
+│   └── images
+│   └── favicon.ico
+│   └── index.html
+│   └── manifest.json
+├── src
+│   └── assets
+│   └── components
+│   └── layout
+│   └── pages
+│   └── routes
+│   └── theme
+│   └── App.js
+│   └── App.test.js
+│   └── history.js
+│   └── index.js
+│   └── serviceWorker.js
+│   └── setupTests.js
+├── .env.example
+├── .eslintrc
+├── .gitignore
+├── .prettierrc
+├── .CHANGELOG.md
+├── .jsconfig.json
+├── LICENSE
+├── package.json
+├── README.md
+├── yarn.lock
+
+```
+
+## Plugins
+
+Paper and Ink is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
+
+| Plugin          | README                                                                                                              |
+| --------------- | ------------------------------------------------------------------------------------------------------------------- |
+| material-ui     | [plugins/material-ui/README.md](https://github.com/mui-org/material-ui/blob/master/README.md)                       |
+| testing-library | [plugins/testing-library/README.md](https://github.com/testing-library/react-testing-library/blob/master/README.md) |
+| node-sass       | [plugins/node-sass/README.md](https://github.com/sass/node-sass/blob/master/README.md)                              |
+| react           | [plugins/react/README.md](https://github.com/facebook/react/blob/master/README.md)                                  |
+| react-router    | [plugins/react-router/README.md](https://github.com/ReactTraining/react-router/blob/master/README.md)               |
+| recharts        | [plugins/recharts/README.md](https://github.com/recharts/recharts/blob/master/README.md)                            |
+| eslint          | [plugins/eslint/README.md](https://github.com/eslint/eslint/blob/master/README.md)                                  |
+| prettier        | [plugins/prettier/README.md](https://github.com/prettier/prettier/blob/master/README.md)                            |
+
+# Screenshots!
+
+Basil Theme
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/basil.png" />
+
+Crane Theme
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/crane.png" />
+
+Material Theme
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/Material.png" />
+
+Material Dark Theme
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/materialDark.png" />
+
+Pinky Theme
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/pinky.png" />
+
+Rally Theme
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/rally.png" />
+
+Reply Theme
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/reply.png" />
+
+## License
+
+MIT
