@@ -111,8 +111,9 @@ Paper and Ink is currently extended with the following plugins. Instructions on 
 | eslint          | [plugins/eslint/README.md](https://github.com/eslint/eslint/blob/master/README.md)                                  |
 | prettier        | [plugins/prettier/README.md](https://github.com/prettier/prettier/blob/master/README.md)                            |
 
-# Screenshots!
 
+<details><summary>Screenshots</summary>
+<p>
 Basil Theme
 <img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/basil.png" />
 
@@ -133,6 +134,9 @@ Rally Theme
 
 Reply Theme
 <img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/reply.png" />
+
+</p>
+</details>
 
 ## License
 
