@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Router } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import ThemeProvider from './theme';
 import history from './history';
 import Routes from './routes/Routes';
@@ -11,9 +11,9 @@ function App() {
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <ThemeProvider>
-        <Router history={history}>
+        <HashRouter basename="/" history={history}>
           <Routes />
-        </Router>
+        </HashRouter>
       </ThemeProvider>
     </ThemeContext.Provider>
   );
