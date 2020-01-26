@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/paper-and-ink/static/css/main.f6dd6d59.chunk.css",
-    "main.js": "/paper-and-ink/static/js/main.b84d39cd.chunk.js",
-    "main.js.map": "/paper-and-ink/static/js/main.b84d39cd.chunk.js.map",
+    "main.js": "/paper-and-ink/static/js/main.ef39a5f2.chunk.js",
+    "main.js.map": "/paper-and-ink/static/js/main.ef39a5f2.chunk.js.map",
     "runtime-main.js": "/paper-and-ink/static/js/runtime-main.73601bfa.js",
     "runtime-main.js.map": "/paper-and-ink/static/js/runtime-main.73601bfa.js.map",
-    "static/js/2.847d2bd4.chunk.js": "/paper-and-ink/static/js/2.847d2bd4.chunk.js",
-    "static/js/2.847d2bd4.chunk.js.map": "/paper-and-ink/static/js/2.847d2bd4.chunk.js.map",
+    "static/js/2.aa8f3e73.chunk.js": "/paper-and-ink/static/js/2.aa8f3e73.chunk.js",
+    "static/js/2.aa8f3e73.chunk.js.map": "/paper-and-ink/static/js/2.aa8f3e73.chunk.js.map",
     "index.html": "/paper-and-ink/index.html",
-    "precache-manifest.6d025e093d5abcc14719d018b9d59ae2.js": "/paper-and-ink/precache-manifest.6d025e093d5abcc14719d018b9d59ae2.js",
+    "precache-manifest.35e8e6fc0ded537a0029546e18d7f1e7.js": "/paper-and-ink/precache-manifest.35e8e6fc0ded537a0029546e18d7f1e7.js",
     "service-worker.js": "/paper-and-ink/service-worker.js",
     "static/css/main.f6dd6d59.chunk.css.map": "/paper-and-ink/static/css/main.f6dd6d59.chunk.css.map",
-    "static/js/2.847d2bd4.chunk.js.LICENSE": "/paper-and-ink/static/js/2.847d2bd4.chunk.js.LICENSE"
+    "static/js/2.aa8f3e73.chunk.js.LICENSE": "/paper-and-ink/static/js/2.aa8f3e73.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.73601bfa.js",
-    "static/js/2.847d2bd4.chunk.js",
+    "static/js/2.aa8f3e73.chunk.js",
     "static/css/main.f6dd6d59.chunk.css",
-    "static/js/main.b84d39cd.chunk.js"
+    "static/js/main.ef39a5f2.chunk.js"
   ]
 }
