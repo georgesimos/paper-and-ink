@@ -7,7 +7,7 @@ ReactJs, Material-UI
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/georgesimos/paper-and-ink/blob/master/LICENSE)
 
-<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/rally.png" />
+<img src="https://github.com/georgesimos/readme-assets/blob/master/paper-and-ink/dashboard.gif" />
 
 Paper and Ink is a **Free React Dashboard** built with:
 
