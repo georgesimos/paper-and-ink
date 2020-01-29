@@ -1,7 +1,6 @@
 {
   "name": "paper-and-ink",
   "version": "0.1.1",
-  "private": true,
   "dependencies": {
     "@material-ui/core": "^4.8.3",
     "@material-ui/icons": "^4.5.1",
