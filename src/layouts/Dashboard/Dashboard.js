@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { useTheme } from '@material-ui/styles';
 import { useMediaQuery } from '@material-ui/core';
-import { TopBar, Sidebar, Footer } from '../components';
+import { TopBar, Sidebar, Footer } from './components';
 import useStyles from './styles';
 
 function Dashboard({ children }) {
