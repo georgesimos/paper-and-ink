@@ -11,7 +11,7 @@ export default function Footer() {
         &copy; George Simos. 2020
       </Typography>
       <Typography variant="caption">
-        Crafted with love |{' '}
+        Made with <span style={{ color: 'rgb(253, 57, 107)' }}>&hearts;</span> |{' '}
         <Link href="http://georgesimos.com/" target="_blank" rel="noopener">
           George Simos
         </Link>
