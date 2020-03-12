@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/paper-and-ink/static/css/main.f6dd6d59.chunk.css",
-    "main.js": "/paper-and-ink/static/js/main.8bc127d4.chunk.js",
-    "main.js.map": "/paper-and-ink/static/js/main.8bc127d4.chunk.js.map",
-    "runtime-main.js": "/paper-and-ink/static/js/runtime-main.73601bfa.js",
-    "runtime-main.js.map": "/paper-and-ink/static/js/runtime-main.73601bfa.js.map",
-    "static/js/2.338811e4.chunk.js": "/paper-and-ink/static/js/2.338811e4.chunk.js",
-    "static/js/2.338811e4.chunk.js.map": "/paper-and-ink/static/js/2.338811e4.chunk.js.map",
+    "main.js": "/paper-and-ink/static/js/main.e282411c.chunk.js",
+    "main.js.map": "/paper-and-ink/static/js/main.e282411c.chunk.js.map",
+    "runtime-main.js": "/paper-and-ink/static/js/runtime-main.87c90f8a.js",
+    "runtime-main.js.map": "/paper-and-ink/static/js/runtime-main.87c90f8a.js.map",
+    "static/js/2.3bb57687.chunk.js": "/paper-and-ink/static/js/2.3bb57687.chunk.js",
+    "static/js/2.3bb57687.chunk.js.map": "/paper-and-ink/static/js/2.3bb57687.chunk.js.map",
     "index.html": "/paper-and-ink/index.html",
-    "precache-manifest.d6b673fc77d4640c196c27e98cbdf148.js": "/paper-and-ink/precache-manifest.d6b673fc77d4640c196c27e98cbdf148.js",
+    "precache-manifest.fd5ff204c5362552bef52978f9a3b3d4.js": "/paper-and-ink/precache-manifest.fd5ff204c5362552bef52978f9a3b3d4.js",
     "service-worker.js": "/paper-and-ink/service-worker.js",
     "static/css/main.f6dd6d59.chunk.css.map": "/paper-and-ink/static/css/main.f6dd6d59.chunk.css.map",
-    "static/js/2.338811e4.chunk.js.LICENSE": "/paper-and-ink/static/js/2.338811e4.chunk.js.LICENSE"
+    "static/js/2.3bb57687.chunk.js.LICENSE.txt": "/paper-and-ink/static/js/2.3bb57687.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.73601bfa.js",
-    "static/js/2.338811e4.chunk.js",
+    "static/js/runtime-main.87c90f8a.js",
+    "static/js/2.3bb57687.chunk.js",
     "static/css/main.f6dd6d59.chunk.css",
-    "static/js/main.8bc127d4.chunk.js"
+    "static/js/main.e282411c.chunk.js"
   ]
 }
