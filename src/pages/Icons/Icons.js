@@ -260,6 +260,9 @@ const useStyles = makeStyles(theme => ({
   },
   results: {
     marginBottom: theme.spacing(1)
+  },
+  showAll: {
+    marginTop: theme.spacing(5)
   }
 }));
 
@@ -279,6 +282,7 @@ export default function SearchIcons() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
   const [selectedIcon, setSelectedIcon] = React.useState(null);
+  const [showMore, setShowMore] = React.useState(false);
 
   const handleClickOpen = React.useCallback(event => {
     setSelectedIcon(allIconsMap[event.currentTarget.getAttribute('title')]);
@@ -297,11 +301,22 @@ export default function SearchIcons() {
     };
   }, []);
 
+  const onShowMore = () => setShowMore(true);
+
+  const filteredIcons = !showMore ? allIcons.slice(0, 100) : allIcons;
+
   return (
     <div className={classes.root}>
       <PageTitle title="Icons" />
       <Paper className={classes.paper} elevation={0}>
-        <Icons icons={allIcons} classes={classes} handleClickOpen={handleClickOpen} />
+        <Icons icons={filteredIcons} classes={classes} handleClickOpen={handleClickOpen} />
+        {!showMore && (
+          <Box width={1} textAlign="center">
+            <Button className={classes.showAll} onClick={onShowMore} color="primary">
+              Show All Icons
+            </Button>
+          </Box>
+        )}
       </Paper>
       <DialogDetails open={open} selectedIcon={selectedIcon} handleClose={handleClose} />
     </div>
