@@ -16,6 +16,11 @@ export default makeStyles(theme => ({
     paddingLeft: theme.spacing(1),
     paddingRight: theme.spacing(1)
   },
+  menuButton: {
+    position: 'absolute',
+    top: 0,
+    right: 5
+  },
   profile: {
     marginBottom: theme.spacing(5)
   },
@@ -51,5 +56,11 @@ export default makeStyles(theme => ({
   listItemText: {
     fontWeight: 500,
     color: theme.palette.contrastText
+  },
+
+  [theme.breakpoints.down('sm')]: {
+    drawer: { top: 0 },
+    menuButton: { dispaly: 'none' },
+    profile: { marginTop: theme.spacing(5) }
   }
 }));

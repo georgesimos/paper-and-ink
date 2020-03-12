@@ -1,9 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
-import { Drawer, List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
-import { Profile } from 'components';
+import {
+  Drawer,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  IconButton,
+  Hidden
+} from '@material-ui/core';
+import CloseIcon from '@material-ui/icons/Close';
 import pages from './pages';
+import { Profile } from 'components';
 import useStyles from './styles';
 
 function Sidebar(props) {
@@ -18,8 +27,12 @@ function Sidebar(props) {
       variant={variant}
     >
       <section className={classes.root}>
+        <Hidden mdUp>
+          <IconButton className={classes.menuButton} aria-label="Menu" onClick={onClose}>
+            <CloseIcon />
+          </IconButton>
+        </Hidden>
         <Profile className={classes.profile} />
-
         <List component="div" disablePadding>
           {pages.map(page => (
             <ListItem

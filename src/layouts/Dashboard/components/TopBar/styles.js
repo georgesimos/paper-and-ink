@@ -1,6 +1,6 @@
 import { makeStyles } from '@material-ui/core';
 
-export default makeStyles( theme => ({
+export default makeStyles(theme => ({
   root: {
     borderBottom: `1px solid ${theme.palette.background.default}`,
     boxShadow: `0 0 35px 0  ${theme.palette.background.default}`,
@@ -20,7 +20,7 @@ export default makeStyles( theme => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    width: '271px',
+    width: 271,
     height: 60,
     flexShrink: 0
   },
@@ -29,7 +29,7 @@ export default makeStyles( theme => ({
     maxWidth: '100%',
     margin: 'auto',
     fontFamily: 'Montserrat,sans-serif',
-    fontSize: '22px',
+    fontSize: 22,
     fontWeight: 700,
     letterSpacing: 3,
     color: theme.palette.custom.contrastText
@@ -38,12 +38,12 @@ export default makeStyles( theme => ({
     marginLeft: theme.spacing(5),
     textTransform: 'uppercase',
     textDecoration: 'none',
-    fontSize: '14px',
+    fontSize: 14,
     color: theme.palette.contrastText
   },
   menuButton: {
     color: theme.palette.custom.contrastText,
-    marginLeft: '-4px'
+    marginLeft: -4
   },
   themeToggler: {
     marginLeft: 'auto'
@@ -53,5 +53,9 @@ export default makeStyles( theme => ({
   },
   signOutButton: {
     marginLeft: theme.spacing(1)
+  },
+  [theme.breakpoints.down('sm')]: {
+    brandWrapper: { width: 75 },
+    logo: { display: 'none' }
   }
-}))
+}));
