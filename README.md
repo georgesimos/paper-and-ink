@@ -33,19 +33,16 @@ clone the repository
 $ git clone https://github.com/georgesimos/paper-and-ink.git myproject
 $ cd myproject
 ```
-
 Install the dependencies and devDependencies
 
 ```sh
 $ npm install
 ```
-
 Set environment variables
 
 ```sh
 cp .env.example .env
 ```
-
 Start the server
 
 ```sh
