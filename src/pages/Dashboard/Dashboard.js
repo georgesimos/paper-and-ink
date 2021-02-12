@@ -21,7 +21,7 @@ const Dashboard = () => {
             title="Sales Today"
             value="1.500"
             differenceValue="+20%"
-            caption=" Since last week"
+            caption="Since last week"
           />
         </Grid>
         <Grid item lg={3} sm={6} xl={3} xs={12}>
@@ -29,7 +29,7 @@ const Dashboard = () => {
             title="Visitors"
             value="200.000"
             differenceValue="-10%"
-            caption=" Since last week"
+            caption="Since last week"
           />
         </Grid>
         <Grid item lg={3} sm={6} xl={3} xs={12}>
@@ -37,7 +37,7 @@ const Dashboard = () => {
             title="Total Earnings"
             value="$ 24.300"
             differenceValue="+12%"
-            caption=" Since last month"
+            caption="Since last month"
           />
         </Grid>
         <Grid item lg={3} sm={6} xl={3} xs={12}>
