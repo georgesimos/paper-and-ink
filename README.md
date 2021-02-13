@@ -20,7 +20,7 @@ Paper and Ink is a **Free React Dashboard** built with:
 - CSS-in-JS styles
 - Create-react-app under the hood
 - Material-UI v4
-- React v16
+- React v17
 - React Hooks
 - React Context
 - React Router Dom v5
@@ -36,7 +36,7 @@ $ cd myproject
 Install the dependencies and devDependencies
 
 ```sh
-$ npm install
+$ yarn
 ```
 Set environment variables
 
@@ -46,7 +46,7 @@ cp .env.example .env
 Start the server
 
 ```sh
-$ npm start
+$ yarn start
 ```
 
 ## Pages
